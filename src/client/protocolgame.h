@@ -257,7 +257,7 @@ public:
     Position getPosition(const InputMessagePtr& msg);
 
 private:
-    stdext::boolean<false> m_enableSendExtendedOpcode;
+    stdext::boolean<true> m_enableSendExtendedOpcode;
     stdext::boolean<false> m_gameInitialized;
     stdext::boolean<false> m_mapKnown;
     stdext::boolean<true> m_firstRecv;
